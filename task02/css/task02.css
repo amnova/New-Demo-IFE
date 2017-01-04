@@ -31,8 +31,9 @@ nav ul li a {
 
 header img {
 	position: absolute;
-	top:-28px;
+	top:0;
 	left: 0;
+	margin-left: 10px;
 }
 
                   /*下面是有关于各个文章*/
@@ -113,9 +114,9 @@ aside h3 {
 	padding-left:5px;
 }
 
-aside form {
+/*aside form {
 	text-align: center;
-}
+}*/
 
 aside form div {
 	margin-bottom: 20px;
@@ -123,15 +124,41 @@ aside form div {
 	line-height: 2em;
 }
 
-aside.title {
-	width: 600px;
-	float: left;
+.title {
+	display: inline-block;
+	width: 500px;
+	text-align: right;
+}
+
+.warning {
+	margin-left: 508px;
+	font-size: 70%;
+	color: #999;
 }
 
 
-/*有关页脚*/
+/*这种方法也可以实现表单控件的对齐*/
+ /*.title {
+	width: 150px;
+	float: left;
+	margin-left: 300px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+.warning {
+	margin-left: 455px;
+	font-size:70%;
+	color:#999;
+}*/
+
+
+
+
+                                   /*有关页脚*/
 footer {
 	font-weight: bold;
+	color: white;
 	height: 50px;
 	background: #333;
 	text-align: center;
