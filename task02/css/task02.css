@@ -126,14 +126,20 @@ aside form div {
 
 .title {
 	display: inline-block;
-	width: 500px;
+	width: 300px;
 	text-align: right;
 }
 
 .warning {
-	margin-left: 508px;
+	margin-left: 308px;
 	font-size: 70%;
 	color: #999;
+}
+
+aside form {
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
