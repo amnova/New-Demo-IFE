@@ -1,4 +1,4 @@
-# New-Demo-IFE_Baidu-other-
+# New-Demo-IFE
 This is a new start. 主要包括百度前端技术学院2016年的任务和平时遇到的DEMO练习
 
 ### task02的完成
